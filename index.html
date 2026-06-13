@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <!-- Menggunakan Bootstrap 5 untuk template yang menarik dan responsif -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .cv-header { background: linear-gradient(135deg, #2c3e50, #3498db); color: white; }
+        .profile-img { width: 150px; height: 150px; object-fit: cover; border: 4px solid white; }
+        .section-title { border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+    <!-- c. ELEMEN KOMENTAR: Awal dari struktur Header CV -->
+    <!-- ========================================== -->
+    <header class="cv-header py-5 mb-4 shadow-sm">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <!-- a. & f. IMAGE 1: Foto Diri -->
+                    <img src="https://via.placeholder.com/150" alt="Foto Profil Diri" class="rounded-circle profile-img shadow">
+                </div>
+                <div class="col-md-9">
+                    <!-- c. TAG HEADING: Menggunakan h1 untuk nama utama -->
+                    <h1 class="display-4 fw-bold">Rizal Arifin</h1>
+                    <p class="lead mb-2">Maintenance Technician</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-md-start">
+                        <!-- e. LINK 1 & 2: Link Eksternal Kontak -->
+                        <a href="mailto:rizarif123@gmail.com" class="text-white text-decoration-none">✉️ rizarif123@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/rizal-arifin-519a9030a/" target="_blank" class="text-white text-decoration-none">🌐 Rizal Arifin</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <!-- KOLOM KIRI: Deskripsi & Pengalaman -->
+            <div class="col-lg-8">
+                
+                <!-- b. MINIMAL 2 PARAGRAF: Deskripsi Diri -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <!-- c. TAG HEADING: Menggunakan h2 untuk judul section -->
+                    <h2 class="section-title text-primary"><i class="bi bi-person-fill"></i> Tentang Saya</h2>
+                    <!-- Paragraf 1 -->
+                    <p>
+                        Saya adalah seorang profesional yang berdedikasi tinggi dengan pengalaman kerja praktis di bidang 
+                        <!-- d. TEXT FORMATTING: Menggunakan tag strong -->
+                        <strong>pemeliharaan mesin dan sistem otomasi industri</strong>. Saat ini, saya juga sedang aktif 
+                        menempuh pendidikan tinggi untuk memperdalam pemahaman teoretis dan teknis di bidang teknologi informasi 
+                        serta rekayasa perangkat lunak guna mengoptimalkan efisiensi sistem kerja modern.
+                    </p>
+                    <!-- Paragraf 2 -->
+                    <p>
+                        Dengan kombinasi keahlian praktis di lapangan dan logika pemrograman yang kuat, saya terbiasa melakukan 
+                        <!-- d. TEXT FORMATTING: Menggunakan tag em -->
+                        <em>troubleshooting</em> perangkat keras industri sekaligus mengembangkan solusi perangkat lunak berbasis data. 
+                        Saya berkomitmen untuk terus belajar, beradaptasi dengan teknologi baru, dan memberikan kontribusi terbaik 
+                        dalam setiap proyek tim.
+                    </p>
+                </section>
+
+                <!-- g. TABEL 1: Riwayat Pendidikan -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <h2 class="section-title text-primary">Pendidikan</h2>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Tahun</th>
+                                    <th>Institusi</th>
+                                    <th>Jurusan / Program</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2025 - Sekarang</td>
+                                    <td>Universitas Siber Asia</td>
+                                    <td>S1 Teknik Informatika</td>
+                                </tr>
+                                <tr>
+                                    <td>2014 - 2017</td>
+                                    <td>SMKN 1 Gombong</td>
+                                    <td>Teknik Pemesinan</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- g. TABEL 2: Pengalaman Kerja -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <h2 class="section-title text-primary">Pengalaman Kerja</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th style="width: 25%;">Periode</th>
+                                    <th style="width: 35%;">Posisi</th>
+                                    <th style="width: 40%;">Instansi / Deskripsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <!-- d. TEXT FORMATTING: Menggunakan tag b -->
+                                    <td><b>2020 - Sekarang</b></td>
+                                    <td>Senior Maintenance Technician</td>
+                                    <td>PT Taco Anugerah Corporindo - Bertanggung jawab atas perawatan mesin produksi.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>2018 - 2020</b></td>
+                                    <td>Operator Assembly</td>
+                                    <td>PT Chiyoda Industri Indonesia - Melakukan perakitan pada part untuk seat mobil.</td>
+                                </tr>
+                                <tr>
+                                    <!-- d. TEXT FORMATTING: Menggunakan tag b -->
+                                    <td><b>2017 - 2018</b></td>
+                                    <td>Junior Maintenance Technician</td>
+                                    <td>PT Taco Anugerah Corporindo - Bertanggung jawab atas perawatan mesin produksi.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- KOLOM KANAN: Keahlian, Proyek & Gambar Tambahan -->
+            <div class="col-lg-4">
+                
+                <!-- h. LIST 1: Keahlian Teknis (Unordered List) -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <h3 class="h5 section-title text-primary">Keahlian Teknis</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Troubleshooting Hardware Industri
+                            <span class="badge bg-primary rounded-pill">Expert</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Bahasa Pemrograman (C#, VB.NET)
+                            <span class="badge bg-primary rounded-pill">Basic</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Web Development (HTML, CSS, Bootstrap)
+                            <span class="badge bg-primary rounded-pill">Basic</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- h. LIST 2: Sertifikasi & Bahasa (Ordered List) -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <h3 class="h5 section-title text-primary">Sertifikasi & Kualifikasi</h3>
+                    <ol class="ps-3 text-muted">
+                        <li>Sertifikasi Pekerjaan Ruang terbatas (2025)</li>
+                        <li>Sertifikasi Training K3 (2024)</li>
+                        <li>Kursus Bahasa Jepang - Tingkat Dasar</li>
+                    </ol>
+                </section>
+
+                <!-- f. IMAGE 2 & 3: Gambar Proyek/Dokumentasi Tambahan -->
+                <section class="card p-4 mb-4 shadow-sm">
+                    <h3 class="h5 section-title text-primary">Dokumentasi Proyek</h3>
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <!-- Image 2 -->
+                            <img src="https://via.placeholder.com/200x150" alt="Dokumentasi Hardware" class="img-fluid rounded border">
+                            <small class="text-muted d-block text-center mt-1">Sistem Perangkat Keras</small>
+                        </div>
+                        <div class="col-6">
+                            <!-- Image 3 -->
+                            <img src="https://via.placeholder.com/200x150" alt="Dokumentasi Software" class="img-fluid rounded border">
+                            <small class="text-muted d-block text-center mt-1">Pengembangan Web/App</small>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- e. LINK 3: Link Internal/Eksternal Tambahan (Kembali ke atas atau Portofolio Luar) -->
+                <section class="text-center py-2">
+                    <a href="#" class="btn btn-outline-secondary btn-sm w-100">⬆️ Kembali ke Atas Halaman</a>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; 2026 - Curriculum Vitae Mandiri.</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle untuk fungsionalitas template -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
